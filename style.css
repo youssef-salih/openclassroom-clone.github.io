@@ -1,0 +1,25 @@
+.comment::before {
+  content: "?";
+  display: block;
+  background: #737373;
+  position: absolute;
+  color: #fff;
+  border-radius: 99%;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  top: -10px;
+  left: -10px;
+  z-index: 1;
+}
+.comment::after {
+  content: "";
+  background: #fff;
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -8px;
+  left: -8px;
+  border-radius: 50%;
+}
